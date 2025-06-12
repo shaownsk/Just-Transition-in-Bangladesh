@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+.bg{
+    background-image: url(./assets/slide/say-bg.jpg);
+}
+.bg-1{
+    background-image: url(./assets/bg.jpg);
+}
