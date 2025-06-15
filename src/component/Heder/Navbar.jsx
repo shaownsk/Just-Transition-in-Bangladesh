@@ -21,7 +21,7 @@ const Navbar = () => {
                         <NavLink><FaLinkedinIn /></NavLink>
                     </div>
                     <div className='flex items-center text-white gap-4'>
-                        <p className='flex items-center gap-3'><IoIosMail /><Link>Email: oshe@agni.com</Link></p>
+                        <p className='flex items-center gap-3'><IoIosMail /><Link>Email:  justtransition.bd.centre@gmail.com</Link></p>
                         <p className='flex items-center gap-3'><IoIosCall />contact:+88 01307691881</p>
                     </div>
                 </nav>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     {/* dropdown */}
                     <div class="flex gap-12 text-lg">
                         <div class="dropdown dropdown-hover">
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >The Initiative</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >About Us </div>
 
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                     <li><NavLink to="/initiative">The Initiative</NavLink></li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover">
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >Resources</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" > Sectoral Interventions </div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                 <li><NavLink to='/Multimedia'>Multimedia</NavLink></li>
                                 <li><a>Research and study reports</a></li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover" >
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">News and Media</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Campaigns</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                 <li><NavLink to='/blog'>Blog</NavLink></li>
                                 <li><NavLink to='/News and Media'>Press Coverage & Media Report</NavLink></li>
@@ -75,21 +75,21 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover" >
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Support</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Circular Economy</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                 <li><a>Donate</a></li>
                                 {/* <li><a>Item 2</a></li> */}
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover">
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >Interventions</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >JTBC Member Hub</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                 <li><NavLink to='/Activities'>Activities</NavLink></li>
                                 <li><NavLink to='/whatare'>What are the country-level focus areas?</NavLink></li>
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover">
-                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Story Telling</div>
+                            <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Storytelling</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                     <li><NavLink to='/storytalling'>Story Telling</NavLink></li>
                                     {/* <li><a>Item 2</a></li> */}

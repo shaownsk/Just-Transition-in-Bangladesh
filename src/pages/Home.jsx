@@ -9,6 +9,7 @@ import logo2 from "./../assets/patner-logo/bspan-logo.jpg"
 import logo3 from "./../assets/patner-logo/frid-logo.png"
 import logo4 from "./../assets/patner-logo/Ituc-logo.jpg"
 import logo5 from "./../assets/patner-logo/LIE-logo.jpg"
+import { NavLink } from 'react-router';
 
 
 const Home = () => {
@@ -97,7 +98,7 @@ const Home = () => {
                                         stakeholders and avoid disruptions of the
                                         social fabric.</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <NavLink to='/SocialD'><button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button></NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +111,7 @@ const Home = () => {
                                         they develop their strategies to advance
                                         climate and decent work goals.</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <NavLink to='/capacity'><button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button></NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +125,7 @@ const Home = () => {
                                         finding and spreading shared messages
                                         and amplifying voices.</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary  bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <NavLink to='/Advocacy'><button class="btn btn-primary  bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button></NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +139,7 @@ const Home = () => {
                                         Regional Office for Asia and the Pacific,
                                         based in Bangkok</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <NavLink to='/Green_Job'><button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button></NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +159,7 @@ const Home = () => {
                                     <p>Dialogue Build-up Network on Environment
                                         and Climate Change</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white"><NavLink to=''>READ MORE</NavLink></button>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +175,7 @@ const Home = () => {
                                         impacted workers, communities and
                                         businesses.</p>
                                     <div class="card-actions">
-                                        <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
+                                        <NavLink to=''><button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button> </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +191,7 @@ const Home = () => {
                                 </div>
                             </div>
                             {/* card-4 */}
-                            <div class="card bg-base-100 shadow-sm ">
+                            {/* <div class="card bg-base-100 shadow-sm ">
                                 <div class="card-body items-center text-center">
                                     <h2 class="card-title font-bold text-xl">Card Title</h2>
                                     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
@@ -198,7 +199,7 @@ const Home = () => {
                                         <button class="btn btn-primary bg-white text-gray-500 border-black hover:bg-red-500 hover:text-white">READ MORE</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                             <a href="#slide-1" class="btn btn-circle">❮</a>

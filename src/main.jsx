@@ -24,6 +24,12 @@ import whatare from './pages/Interventions/what-are.jsx';
 import storytalling from './pages/storytalling.jsx';
 import Activities from './pages/Interventions/Activities.jsx';
 import Blog from './pages/News and Media/Blog.jsx';
+import SocialD from './pages/How We Can/SocialD.jsx';
+import Capacity from './pages/How We Can/capacity.jsx';
+import Advocacy from './pages/How We Can/Advocacy.jsx';
+import Green from './pages/How We Can/Green.jsx';
+import Network from './pages/How We Can/Network.jsx';
+import Campaign from './pages/How We Can/Campaign.jsx';
 
 const router = createBrowserRouter([
   {
@@ -97,7 +103,24 @@ const router = createBrowserRouter([
       {
         path:'/Activities',
         Component:Activities
-      }
+      },
+      {
+        path:'/SocialD',
+        Component:SocialD
+      },
+      {
+        path:'/capacity',
+        Component:Capacity,
+      },
+      {
+        path:'/Advocacy',
+        Component:Advocacy,
+      },
+      {
+        path:'/Green_Job',
+        Component:Green
+      },
+      
     ]
   }
 ])

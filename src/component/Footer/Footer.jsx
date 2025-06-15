@@ -44,9 +44,9 @@ const Footer = () => {
                     <h1 class="font-bold text-xl pb-6">CONTACT US</h1>
                     <div class="text-sm font-semibold">
                         <p>Just Transition in Bangladesh</p>
-                        <p>Address : House-19, Lane-01, Block-A, Sction-06, Mirpur-Dhaka-1216.</p>
+                        <p>Address : Just Transition Bangladesh Centre (JTBC)</p>
                         <p>Phone : +88 01307691881</p>
-                        <p>Email : oshe@agni.com</p>
+                        <p>Email : justtransition.bd.centre@gmail.com</p>
 
                     </div>
                     {/* follow us */}
