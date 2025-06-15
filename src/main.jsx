@@ -28,8 +28,7 @@ import SocialD from './pages/How We Can/SocialD.jsx';
 import Capacity from './pages/How We Can/capacity.jsx';
 import Advocacy from './pages/How We Can/Advocacy.jsx';
 import Green from './pages/How We Can/Green.jsx';
-import Network from './pages/How We Can/Network.jsx';
-import Campaign from './pages/How We Can/Campaign.jsx';
+
 
 const router = createBrowserRouter([
   {
