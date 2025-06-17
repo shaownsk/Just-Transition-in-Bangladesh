@@ -43,6 +43,7 @@ const Navbar = () => {
 
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                     <li><NavLink to="/initiative">The Initiative</NavLink></li>
+                                    <li><NavLink to='/Activities'>Activities</NavLink></li>
                                     {/* <li><a>Item 2</a></li> */}
                                 </ul>
                         </div>
@@ -70,6 +71,7 @@ const Navbar = () => {
                             <div tabindex="0" role="button" class="hover:text-red-600 hover:underline">Campaigns</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                                 <li><NavLink to='/blog'>Blog</NavLink></li>
+                                <li><NavLink to='/whatare'>What are the country-level focus areas?</NavLink></li>
                                 <li><NavLink to='/News and Media'>Press Coverage & Media Report</NavLink></li>
                                 <li><NavLink to='/TelevisionCoverage'>Television Coverage</NavLink></li>
                             </ul>
@@ -84,8 +86,9 @@ const Navbar = () => {
                         <div class="dropdown dropdown-hover">
                             <div tabindex="0" role="button" class="hover:text-red-600 hover:underline" >JTBC Member Hub</div>
                             <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                                <li><NavLink to='/Activities'>Activities</NavLink></li>
-                                <li><NavLink to='/whatare'>What are the country-level focus areas?</NavLink></li>
+                                {/* <li><a>Item 2</a></li> */}
+                                <li><NavLink to=''>Our Institutional Member</NavLink></li>
+                                <li><NavLink to=''>Individual Member</NavLink></li>
                             </ul>
                         </div>
                         <div class="dropdown dropdown-hover">
